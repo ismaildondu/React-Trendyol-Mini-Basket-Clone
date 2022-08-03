@@ -1,0 +1,73 @@
+.subBasket {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  border: 1px solid #e6e6e6;
+  z-index: 100;
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.subBasketMainTitle {
+  font-weight: bold;
+}
+
+.subBasketItem {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.fakeImg {
+  background-color: #ada9a938;
+  width: 84px;
+  height: 84px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  margin: 2px;
+}
+
+.subBasketDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subBasket h3 {
+  color: #f27a1a;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.subBasketDetail p {
+  font-size: 13px;
+  width: 150px;
+  color: rgb(19, 19, 19);
+}
+
+.basketAmout {
+  font-size: 11px;
+  color: #aca5a5;
+  display: flex;
+  gap: 10px;
+}
+
+.mainBrand {
+  margin-right: 5px;
+}
+
+.subBasketBtn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px 15px;
+  border: none;
+  background-color: #f27a1a;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f27a1a;
+  border-radius: 6px;
+  background: #f27a1a;
+}
